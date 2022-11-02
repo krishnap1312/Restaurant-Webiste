@@ -1,0 +1,304 @@
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&family=Poppins:wght@500&display=swap');
+
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        html{
+            scroll-behavior:smooth;
+        }
+        /*Navigation */
+
+        nav{
+            background-color: #FD841F;
+            width: 100%;
+            height: 12vh;
+        }
+
+        li{
+        list-style-type: none;
+        }
+        ul>a{
+            display: inline;
+            float: right;
+            margin: 2vw 2vw 0px 2vw;
+            font-size: 1.5vw;
+            text-decoration: none;
+            
+        }
+
+        a{
+            text-decoration: none;
+            color: aliceblue;
+            padding: 0px 2vw 0px 2vw;
+            margin: 2vw;
+            text-align: center;    
+        }
+        .hide-user{
+            display: none;
+            text-decoration: none;
+        }
+        @media only screen and (max-width: 600px) {
+            nav {
+                width: 100%;
+                height: 5vh;
+            background-color: #150050;
+            }
+            ul>a{
+                margin: auto;
+            }
+            .profile-pic{
+                display: none;
+                
+            }
+            .hide-user{
+                display: inline;
+                text-decoration: none;
+            }
+        }
+
+        .profile-pic{
+            width: 2.5vw;
+            height: 5vh;
+        }
+        .profile-a{
+            padding: 0;
+        }
+       
+        .label{
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        /*Navigation closes*/
+
+        /*Biryani card*/
+        .biryani-card{
+            display: inline-flex;
+            
+        }
+        .biryani-card>img{
+            width: 50vw;
+            height: 70vh;
+            
+        }
+
+        .biryani-text{
+            width: 48.9vw;
+            height: 70vh;
+            background-color: black;
+            color: aliceblue;
+            margin-top: 0;
+            margin-bottom: 0vh;
+            padding: 0;
+            text-align: center;
+            font-size: 6vw;
+            font-family: 'Cinzel', serif;
+        }
+        span{
+            color: #FD841F;
+        }
+
+        
+        /*Biryani card closes*/
+
+        /*Center nav*/
+        .center-nav{
+            display: flex;
+            margin: auto;
+
+        }
+
+        .center-nav>li{
+            padding: 2vw 1vw 2vw 1vw;
+            margin:auto;
+            font-size: 2vw;
+
+        }
+
+        .center-nav>li:hover{
+            text-decoration: underline;
+            transition-duration: 2s;
+        }
+
+        @media only screen and (max-width:600px) {
+            .center-nav>li{
+                color: aliceblue;
+                margin: auto;
+            }
+        }
+        /*Center nav closes*/
+
+        /*cards */
+        .cards-container{
+            display:grid;
+            padding: 4vw;
+        }
+
+        .card1-div{
+            background-color: #590709 ;
+            display:inline-flex;
+            width: 93vw;
+        }
+
+        .cards1{
+            width: 60vw;
+            height: 80vh;
+                      
+        }
+
+        .order-button{
+            width: 25.5vw;
+            height:24vh;
+            margin-top: 30vh;
+        }
+
+        
+        .card2-div{
+            background-color: #672f32;
+            display: inline-flex;
+            margin-top: 5vh;
+        }
+
+        .cards2{
+            width: 60vw;
+            height: 80vh;
+            margin-left: auto;
+            
+        }
+
+        .order-btn2{
+            width: 24vw;
+            height: 24vh;
+            margin-top: 30vh;
+            border:2px solid navy;
+            border-radius: 50px;
+            background-color: black;
+            padding: 1vh;
+        }
+
+        .card3-div{
+            background-color: #b10101;
+            display: inline-flex;
+            margin-top: 5vh;
+        }
+
+        .cards3{
+            width: 40vw;
+            height: 80vh;
+            margin-right: auto;
+        }
+
+        .order-btn3{
+            width: 41vw;
+            height: 44vh;
+            margin-top: 10vh;
+            margin-left: 6vh;
+            border:2px solid navy;
+            border-radius: 50px;
+            background-color: black;
+            padding: 1vh;
+        }
+
+        .cards4{
+            width: 45.5vw;
+            height: 120vh;
+            margin-left: auto;
+        }
+
+        .card4-div{
+            background-color: white;
+            display: inline-flex;
+            margin-top: 0vh;
+        }
+
+        .order-btn4{
+            width: 40vw;
+            height: 54vh;
+            margin-top: 40vh;
+            
+            border:2px solid navy;
+            border-radius: 50px;
+            padding: 1vh;
+        }
+        
+        .card5-div{
+            background-color: #0d141e;
+            display: inline-flex;
+            margin-top: 5vh;
+            width: 93.5vw;
+        }
+        .order-btn5{
+            width: 30vw;
+            height: 34vh;
+            margin-top: 20vh;
+            margin-left: 15vw;
+            border:2px solid navy;
+            border-radius: 50px;
+            padding: 1vh;
+        }
+
+        .cards5{
+            width: 40vw;
+            height: 80vh;
+            margin-right: auto;
+        }
+
+        
+
+        /*cards closes*/
+
+
+        /*chef's special*/
+        .Chefs-specials{
+            text-align: center;
+            font-size: 4vw;
+            background-color: orange;
+            width: 35vw;
+            height: 10vh;
+            margin-left: 33%;
+        }
+        .hawai-noodles{
+            width: 86vw;
+        }
+         .Musk,.Turkey-chicken{
+            width: 90vw;
+            height: 50vh;
+            margin-bottom: 5vh;
+        }
+
+        .Chefs-div{
+            background-color: #cc651a;
+            width: 93.5vw;
+            margin-left: 4vw;
+        }
+
+        .top-arrow{
+            display: flex;
+            float: right;
+            justify-content: center;
+            border: none;
+        }
+        .to-top{
+            
+        }
+        .to-top>img{
+            width: 2vw;
+            height: 4vh;
+        }
+        .to-top>img>p{
+            color: black;
+        }
+        .up-arrow{
+            font-size: 1vw;
+            color: #0d141e;
+        }
+        button{
+            border: none;
+           
+            padding: 0;
+            margin: 0%;
+            margin-right: 1vh;
+        }
+        /*chef's specals closes*/
+
+        

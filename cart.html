@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Generics | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="./styles/Cart.css" />
+        <script src="store.js" async></script>
+    </head>
+    <body>
+           <!--Navigation-->
+           <nav id="top">
+            <ul class="nav-bar">
+                
+                <a href=""><li> </li></a>
+                <a href=""><li> </li></a>
+                <a href="" class="hide-user"><li> user </li></a>
+                <a href="" class="profile-a"><img src="./assets/user.png" alt="" class="profile-pic"></a>
+                <a href="#containerCart"><li>Cart</li></a>
+                <a href="./index.html#chef"><li>Chef's Special</li></a>
+                <a href="./index.html"><li>Home</li></a>
+                    
+            </ul>
+        </nav>
+
+    <!--Navigation closes-->
+    
+        <section class="container content-section">
+            <h2 class="section-header">Breakfast</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Aloo Paratha</span>
+                    <img class="shop-item-image" src="./assets/breakfast/Aloo Paratha.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">&#8377 45</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Burger</span>
+                    <img class="shop-item-image" src="./assets/breakfast/burger.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">&#8377 59</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Idli</span>
+                    <img class="shop-item-image" src="./assets/breakfast/idli.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">&#8377 35</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Nooddles</span>
+                    <img class="shop-item-image" src="./assets/breakfast/nooddles.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">&#8377 49</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Pizza</span>
+                    <img class="shop-item-image" src="./assets/breakfast/Pizza.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">&#8377 249</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Poori</span>
+                    <img class="shop-item-image" src="./assets/breakfast/poori.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">&#8377 69</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="container content-section" >
+            <h2 class="section-header">Today's Special</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Samosa</span>
+                    <img class="shop-item-image" src="./assets/breakfast/samosa.webp">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">&#8377 35</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Vadda</span>
+                    <img class="shop-item-image" src="./assets/breakfast/vadda.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">&#8377 69</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section" id="containerCart">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">&#8377 0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Taurus Food Truck</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="./assets/youtube.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.whatsapp.com" target="_blank">
+                            <img src="./assets/whatsapp.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="./assets/facebook.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
