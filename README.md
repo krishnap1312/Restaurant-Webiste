@@ -3,7 +3,7 @@
 
 # Table of Contents
 
-**Getting Started**
+**[Getting Started](Getting Started)**
 
 **Directory Structure**
 
