@@ -22,6 +22,10 @@ Navigate to the directory: **cd restaurant-website**
 
 Open Index.html file in your preferred browser. (Google Chrome recommended).
 
+### Landing Page will appears like this: -
+![restaurant](https://user-images.githubusercontent.com/113228728/211052811-e8967e00-c9bc-4405-a093-f655f057990c.png)
+
+
 # Directory Structure
 The directory structure for this repository is as follows:
 
