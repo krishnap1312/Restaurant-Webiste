@@ -27,8 +27,8 @@ Open Index.html file in your preferred browser. (Google Chrome recommended).
 
 
 there are dumy buttons. Only breakfast button works.
-
-### Breakfast will look like this 
+### After clicking on **breakfast** button you will be redirected to breakfast page where you can find different foods.
+### Breakfast page will look like this 
 ![restaurant1](https://user-images.githubusercontent.com/113228728/211053274-7dde59f9-eb09-46e7-8c43-99e68efc0124.png)
 
 
@@ -38,7 +38,7 @@ there are dumy buttons. Only breakfast button works.
 ### at last by clicking on purchase the order will be placed and an alert or Pop Up will be visible on the webpage
 
 
-After clicking on **breakfast** button you will be redirected to breakfast page where you can find different foods.
+
 
 
 # Directory Structure
