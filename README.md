@@ -3,7 +3,7 @@
 
 # Table of Contents
 
-**[Getting Started](Getting Started)**
+**Getting Started**
 
 **Directory Structure**
 
@@ -30,7 +30,9 @@ The directory structure for this repository is as follows:
 **cart.html**: A page displaying our menu and have cart.
 
 **/styles**: A directory containing all of the stylesheets for the website.
+
 **/assets**: A directory containing all images needed for the website.
+
 **store.js**: A file containing all js code required for the website.
 
 # Built With
